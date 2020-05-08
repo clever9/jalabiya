@@ -1,0 +1,52 @@
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #af9a82;
+  --f7-theme-color-rgb: 169, 149, 128;
+  --f7-theme-color-shade: #af9a82;
+  --f7-theme-color-tint: #af9a82;
+  --f7-grid-gap: 16px;
+  --f7-grid-row-gap: 10px;
+  --f7-grid-col-gap: 10px;
+  --f7-bars-bg-color: #fff;
+  --f7-preloader-modal-bg-color: rgba(192, 174, 136, 0.8);
+  --f7-preloader-size: 40px;
+  --f7-preloader-modal-preloader-size: 50px;
+  --f7-preloader-modal-padding: 15px;
+  --f7-input-bg-color: transparent;
+  --f7-login-screen-content-bg-color: transparent;
+  --f7-login-screen-bg-color: #fff;
+}
+
+.scrollChips {
+  /* height: 60px; */
+  padding: 2px;
+  margin: 0px 3px 0px 3px; 
+  overflow: auto;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+  colors:
+  main: #af9a82
+  dark-gray: #6a767a
+  light-grey: #d1d6d6 
+*/
+
+.nav-bg {
+  background-color: red !important;
+}
+@font-face {
+  font-family: cairo;
+  src: url(../fonts/Cairo-Light.ttf);
+}
+
+@font-face {
+  font-family: cairo-bold;
+  src: url(../fonts/Cairo-Bold.ttf);
+}
+
+/* Your app custom styles here */
