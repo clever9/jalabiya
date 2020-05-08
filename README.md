@@ -1,2 +1,2 @@
 # jalabiya
-![Test Image 1](3DTest.png)
+![Test Image 1](logo.PNG)
